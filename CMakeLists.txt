@@ -3,4 +3,6 @@ project(DataAsg3)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(DataAsg3 main.cpp)
+add_executable(DataAsg3 main.cpp
+        HuffmanTree.cpp
+        HuffmanTree.h)
