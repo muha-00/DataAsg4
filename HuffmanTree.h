@@ -17,6 +17,7 @@ struct HuffmanTree {
     HuffmanNode* left;
     HuffmanNode* right;
 
+    //  implemented constructors for both leaf and internal nodes
     HuffmanNode(char ch, int freq)
         : character(ch), frequency(freq), left(nullptr), right(nullptr) {}
 
@@ -25,10 +26,3 @@ struct HuffmanTree {
 };
 
 
-
-
-};
-
-
-
-#endif //HUFFMANTREE_H
